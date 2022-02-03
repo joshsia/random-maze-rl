@@ -1,5 +1,9 @@
 # random-maze-rl
 
+Author: Joshua Sia
+
+Date: 2020-11-10
+
 ## About
 Reinforcement learning is used to solve a randomly generated maze. Some examples of mazes are shown below. The red circle represents the agent's starting state and the blue circle represents the goal. 
 
@@ -12,6 +16,13 @@ Deep Q Learning (DQL) was implemented to train an agent to reach the goal. Train
 For more details on the rules of the problem, please see here.
 
 For more details on the implementation of DQL, please see here.
+
+Examples of the agent's learned policy after training are shown below. The purple line represents the path the agent took under its learned policy.
+
+Reached goal in 69 steps            |  Reached goal in 85 steps |  Reached goal in 99 steps
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/joshsia/random-maze-rl/blob/main/solved-maze1.png)  |  ![](https://github.com/joshsia/random-maze-rl/blob/main/solved-maze2.png) | ![](https://github.com/joshsia/random-maze-rl/blob/main/solved-maze3.png)
+
 
 ## Usage
 
