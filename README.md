@@ -1,5 +1,9 @@
 # random-maze-rl
 
+Author: Joshua Sia
+
+Date: 2020-11-10
+
 ## About
 Reinforcement learning is used to solve a randomly generated maze. Some examples of mazes are shown below. The red circle represents the agent's starting state and the blue circle represents the goal. 
 
