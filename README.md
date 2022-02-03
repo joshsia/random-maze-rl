@@ -1,5 +1,7 @@
 # random-maze-rl
-Using reinforcement learning to solve a randomly generated maze
+
+## About
+Using reinforcement learning to solve a randomly generated maze. Some examples of mazes are shown below
 
 ## Usage
 
