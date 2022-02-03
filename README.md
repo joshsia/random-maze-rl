@@ -13,9 +13,9 @@ Random maze 1             |  Random maze 2 |  Random maze 3
 
 Deep Q Learning (DQL) was implemented to train an agent to reach the goal. Training was conducted for 10 minutes and at the end of training, the agent's policy was executed greedily to determine whether the agent is able to reach the goal.
 
-For more details on the rules of the problem, please see here.
+For more details on the rules of the problem, please see [here](https://github.com/joshsia/random-maze-rl/blob/main/rules.md).
 
-For more details on the implementation of DQL, please see here.
+For more details on the implementation of DQL, please see [here](https://github.com/joshsia/random-maze-rl/blob/main/implementation.pdf).
 
 Examples of the agent's learned policy after training are shown below. The purple line represents the path the agent took under its learned policy.
 
