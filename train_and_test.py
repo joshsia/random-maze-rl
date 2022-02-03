@@ -12,16 +12,13 @@ if __name__ == "__main__":
     seeds = []
     success = 0
     fail = 0
+    train_time = 600
     for i in range(tests):
         # This determines whether the environment will be displayed on each each step.
         display_on = True
 
         # Create a random seed, which will define the environment
         random_seed = int(time.time())
-
-        # Hard environment seeds:
-        # [1606630931, 1606632731, 1606633331, 1606414252, 1606480834]
-        random_seed = 1606480834
         np.random.seed(random_seed)
 
         # Create a random environment
@@ -36,8 +33,7 @@ if __name__ == "__main__":
 
         # Determine the time at which training will stop, i.e. in 10 minutes (600 seconds) time
         start_time = time.time()
-        #end_time = start_time + 540
-        end_time = start_time + 600
+        end_time = start_time + train_time
 
         # Train the agent, until the time is up
         while time.time() < end_time:
@@ -53,14 +49,13 @@ if __name__ == "__main__":
             # Set what the new state is
             state = next_state
             # Optionally, show the environment
-            if display_on and (show < 3):
-            #if display_on:
-                show += 1
+            # if display_on and (show < 3):  # show only 3 frames so more epochs can be completed
+            if display_on:
+                # show += 1
                 environment.show(state)
 
         # Test the agent for 100 steps, using its greedy policy
-
-        #pause = input('\nReady to see greedy policy?')
+        pause = input('\nReady to see greedy policy?')
         state = environment.init_state
         has_reached_goal = False
         for step_num in range(100):
