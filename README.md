@@ -61,3 +61,7 @@ python train_and_test.py
 - matplotlib=3.3.0
 - opencv-python=4.5.1.48
 - torch=1.7.0
+
+## Credits
+
+The code for the random environment was provided by Dr Edward Johns at Imperial College London as part of the module "Reinforcement Learning".
