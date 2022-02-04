@@ -64,4 +64,4 @@ python train_and_test.py
 
 ## Credits
 
-The code for the random environment was provided by Dr Edward Johns at Imperial College London as part of the module "Reinforcement Learning".
+The code for the random environment was provided by Dr Edward Johns at Imperial College London as part of the Reinforcement Learning module.
